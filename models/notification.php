@@ -2,7 +2,9 @@
 
 namespace APNS\Models;
 
-class Notification
+use Eloquent;
+
+class Notification extends Eloquent
 {
 	public $alert = null;
 	public $badge = 0;
